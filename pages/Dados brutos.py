@@ -4,6 +4,8 @@ import requests
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(layout='wide')
+
 
 @st.cache_data  # optimiza a memória
 def converte_csv(df):
